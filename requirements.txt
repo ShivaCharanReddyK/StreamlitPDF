@@ -1,0 +1,14 @@
+torch
+accelerate
+sentence_transformers
+streamlit_chat
+streamlit~=1.31.1
+faiss-cpu
+tiktoken
+ctransformers
+huggingface-hub
+pypdf
+python-dotenv~=1.0.1
+replicate
+docx2txt
+langchain~=0.1.10
