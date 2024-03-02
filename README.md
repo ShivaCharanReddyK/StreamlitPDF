@@ -48,7 +48,7 @@ This will start the Streamlit server and open the application in your default we
 
 Once the Streamlit application is running:
 
-1. In the sidebar of the application, there's an option to upload documents. You can upload PDF, DOCX, or TXT files.
+1. In the sidebar of the application, there's an option to upload documents. You can upload PDF files.
 2. After uploading a document, you can ask questions about its content in the text input field labeled "Question:". After submitting a question, the application will generate a response.
 3. The application maintains a chat history, displaying both the user's questions and the generated responses.
 
