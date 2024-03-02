@@ -6,11 +6,18 @@ This application is written in Python and uses the `streamlit`, `langchain`, `la
 
 Before running this application, you need to have Python installed on your system. You also need to install the following Python libraries:
 
-- streamlit
-- langchain
-- langchain_community
-- python-dotenv
-- tempfile
+torch
+accelerate
+sentence_transformers
+streamlit_chat
+streamlit~=1.31.1
+faiss-cpu
+tiktoken
+huggingface-hub
+pypdf
+replicate
+docx2txt
+langchain
 
 You can install these libraries using pip:
 
