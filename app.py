@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_chat import message
 from langchain.chains import ConversationalRetrievalChain
 from langchain_community.embeddings import HuggingFaceEmbeddings
-# from langchain_community.llms import CTransformers
 from langchain_community.llms import Replicate
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.vectorstores import FAISS
@@ -23,7 +22,7 @@ def initialize_session_state():
         st.session_state['history'] = []
 
     if 'generated' not in st.session_state:
-        st.session_state['generated'] = ["Hello! Ask me anything about 🤗"]
+        st.session_state['generated'] = ["Hello! Ask me anything about the PDF🤗"]
 
     if 'past' not in st.session_state:
         st.session_state['past'] = ["Hey! 👋"]
