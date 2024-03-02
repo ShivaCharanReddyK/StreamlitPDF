@@ -21,9 +21,8 @@ Before running this application, you need to have Python installed on your syste
 
 You can install these libraries using pip:
 
-```bash
-pip install streamlit langchain langchain_community python-dotenv tempfile
-```
+pip install libraries names
+
 
 OR (to install libraries at a time)
 
